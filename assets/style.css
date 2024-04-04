@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+
+}
+
+body {
+
+background-color: #f3d5e7;
+}
+
+body > div {
+    background-color: #FFF;
+
+}
+h1, h2 {
+
+    font-family: "lora" , serif;
+}
