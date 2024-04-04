@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing:border-box ;
+    box-sizing: border-box ;
+    -webkit-font-smoothing: antialiased;
 
 }
 
@@ -50,13 +51,12 @@ p {
 }
 
 .tempo {
-    background-color: #f3d5e7;
+    background-color: #fff7fb;
     padding: 28px;
     border-radius: 12px;
 }
 
 .tempo h2 {
-
     font-size: 20px;
     font-weight: 600;
     line-height: 100%;
@@ -108,4 +108,57 @@ hr {
 
     border: 1px solid #e3ddd7;
     margin-block: 32px;
+}
+
+.modo li ::marker {
+    color: #854632;
+    font-weight: 700;
+}
+
+.informaçoes p {
+    margin-bottom: 24px ;
+}
+
+table { 
+    width: 100%;
+}
+
+th, td {
+    border-bottom: 1px solid #e3ddd7;
+    width: 100%;
+}
+
+tr {
+    display: flex
+}
+
+th {
+    text-align: left;
+    padding-left: 32px;
+    font-weight: 400;
+    color: #5f564d;
+    line-height: 150%;
+}
+
+td {
+    padding-left: 16px;
+    font-weight: 700;
+    color: #854632;
+    line-height: 150%;
+}
+
+
+tr + tr th,
+tr + tr td {
+   padding-block: 12px;
+}
+
+tr:nth-of-type(1) th,
+tr:nth-of-type(1)td {
+    padding-bottom: 12px;
+}
+
+tr:nth-of-type(4) th,
+tr:nth-of-type(4) td {
+    border: none;
 }
